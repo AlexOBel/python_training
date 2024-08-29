@@ -40,16 +40,65 @@
 #     print(f"\n{river}")
 
 
-favorite_languages = {
-    'jen': 'python',
-    'sarah': 'c',
-    'edward': 'ruby',
-    'phil': 'python',
-}
+# favorite_languages = {
+#     'jen': 'python',
+#     'sarah': 'c',
+#     'edward': 'ruby',
+#     'phil': 'python',
+# }
+#
+# people = ('bob', 'bill', 'jen', 'sarah', 'edward', 'phil', 'pit')
+# for name in people:
+#     if name in favorite_languages:
+#         print(f'{name} опрос пройден!')
+#     else:
+#         print(f'{name} пройди опрос!')
 
-people = ('bob', 'bill', 'jen', 'sarah', 'edward', 'phil', 'pit')
-for name in people:
-    if name in favorite_languages:
-        print(f'{name} опрос пройден!')
-    else:
-        print(f'{name} пройди опрос!')
+
+# people = {
+#     'mex' : {
+#         'first_name': 'Max',
+#         'last_name': 'Stamet',
+#         'age': '27',
+#         'city': 'Ekb',
+#         },
+#     'klim' : {
+#         'first_name' : 'Ivan',
+#         'last_name' : 'Klimov',
+#         'age' : '30',
+#         'city' : 'Ekb',
+#     },
+#     'lipsi' : {
+#         'first_name' : 'Artem',
+#         'last_name' : 'Laptev',
+#         'age' : '26',
+#         'city' : 'Ekb',
+#     },
+# }
+#
+# for aliase, people_info in people.items():
+#     print(f"aliase: {aliase}")
+#     full_name = f"{people_info['first_name']} {people_info['last_name']}"
+#     print(f"full name: {full_name}")
+#     print(f"age: {people_info['age']}")
+#     print(f"location: {people_info['city']}")
+
+# pets = {
+#     'arch' : {
+#         'pet' : 'dog',
+#         'owner' : 'Boyar',
+#     },
+#     'nemo' : {
+#         'pet' : 'fish',
+#         'owner' : 'Sally'
+#     },
+#     'boris' : {
+#         'pet' : 'cat',
+#         'owner' : 'Bob',
+#     },
+# }
+#
+# for pets, info_pets in pets.items():
+#     print(f'{pets}')
+#     print(f'Type {info_pets['pet']} and owner {info_pets["owner"]}')
+
